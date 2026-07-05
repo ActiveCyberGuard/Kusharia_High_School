@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>কুশারিয়া উচ্চ বিদ্যালয় | ঘাটাইল, টাঙ্গাইল</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&family=Fraunces:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== TOP BAR ==================== -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <span>📍 কুশারিয়া, ঘাটাইল, টাঙ্গাইল</span>
+    <span>📞 ০১৭xxxxxxxx</span>
+    <span>✉️ info@kushariahs.edu.bd</span>
+  </div>
+</div>
+
+<!-- ==================== HEADER / NAV ==================== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a class="brand" href="#home">
+      <div class="brand-emblem">কু</div>
+      <div class="brand-text">
+        <span class="brand-name">কুশারিয়া উচ্চ বিদ্যালয়</span>
+        <span class="brand-sub">ঘাটাইল, টাঙ্গাইল &nbsp;•&nbsp; স্থাপিত ১৯৯৪</span>
+      </div>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="মেনু খুলুন">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active">হোম</a>
+      <a href="#headmaster" class="nav-link">প্রধান শিক্ষকের বার্তা</a>
+      <a href="#about" class="nav-link">পরিচিতি</a>
+      <a href="#admission" class="nav-link">ভর্তি</a>
+      <a href="#results" class="nav-link">ফলাফল</a>
+      <a href="#attendance" class="nav-link">উপস্থিতি</a>
+      <a href="#certificate" class="nav-link">প্রত্যয়ন পত্র</a>
+      <a href="#teachers" class="nav-link">শিক্ষকবৃন্দ</a>
+      <a href="#gallery" class="nav-link">গ্যালারি</a>
+      <a href="#alumni" class="nav-link">অ্যালামনাই</a>
+      <a href="#achievers" class="nav-link">কৃতি শিক্ষার্থী</a>
+      <a href="#contact" class="nav-link">যোগাযোগ</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="home">
+  <div class="hero-ledger-lines" aria-hidden="true"></div>
+  <svg class="alpona alpona-left" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="90" fill="none" stroke="#A6321E" stroke-width="2"/><circle cx="100" cy="100" r="60" fill="none" stroke="#E8A93A" stroke-width="2"/><circle cx="100" cy="100" r="30" fill="none" stroke="#0B5D3B" stroke-width="2"/></svg>
+  <svg class="alpona alpona-right" viewBox="0 0 200 200" aria-hidden="true"><path d="M100 10 L120 80 L190 100 L120 120 L100 190 L80 120 L10 100 L80 80 Z" fill="none" stroke="#E8A93A" stroke-width="2"/></svg>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-in" style="animation-delay:.05s">শিক্ষাই জাতির মেরুদণ্ড</p>
+      <h1 class="hero-title reveal-in" style="animation-delay:.15s">কুশারিয়া উচ্চ বিদ্যালয়</h1>
+      <p class="hero-location reveal-in" style="animation-delay:.25s">কুশারিয়া বাজার, ঘাটাইল, টাঙ্গাইল</p>
+      <p class="hero-desc reveal-in" style="animation-delay:.35s">১৯৯৪ সাল থেকে এই অঞ্চলের শিক্ষার্থীদের জন্য মানসম্মত শিক্ষা, নৈতিকতা ও মূল্যবোধ গড়ে তোলার অঙ্গীকার নিয়ে কাজ করে যাচ্ছে আমাদের বিদ্যালয়।</p>
+      <div class="hero-actions reveal-in" style="animation-delay:.45s">
+        <a href="#admission" class="btn btn-primary">ভর্তির আবেদন করুন</a>
+        <a href="#about" class="btn btn-ghost">বিদ্যালয় সম্পর্কে জানুন</a>
+      </div>
+      <div class="hero-chips reveal-in" style="animation-delay:.55s">
+        <a href="#results" class="hero-chip">📄 ফলাফল দেখুন</a>
+        <a href="#attendance" class="hero-chip">🗓️ উপস্থিতি চেক করুন</a>
+        <a href="#certificate" class="hero-chip">🖨️ প্রত্যয়ন পত্র</a>
+        <button class="hero-chip" id="heroNoticeBtn" type="button">🔔 সকল নোটিশ</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">১৯৯৪</span><span class="stat-label">প্রতিষ্ঠাকাল</span></div>
+        <div class="stat"><span class="stat-num">৬–১০</span><span class="stat-label">শ্রেণি</span></div>
+        <div class="stat"><span class="stat-num">৩০+</span><span class="stat-label">শিক্ষক-শিক্ষিকা</span></div>
+        <div class="stat"><span class="stat-num">১২০০+</span><span class="stat-label">শিক্ষার্থী</span></div>
+      </div>
+    </div>
+
+    <div class="hero-showcase reveal-in" style="animation-delay:.4s">
+      <div class="showcase-card">
+        <div class="showcase-head">
+          <span>নমুনা রেজাল্ট শিট</span>
+          <span class="showcase-badge">গ্রেড A+</span>
+        </div>
+        <div class="showcase-row"><span>বাংলা</span><div class="showcase-track"><div class="showcase-fill" style="width:88%"></div></div></div>
+        <div class="showcase-row"><span>ইংরেজি</span><div class="showcase-track"><div class="showcase-fill" style="width:76%"></div></div></div>
+        <div class="showcase-row"><span>গণিত</span><div class="showcase-track"><div class="showcase-fill" style="width:92%"></div></div></div>
+        <div class="showcase-foot">
+          <div class="showcase-ring">
+            <svg viewBox="0 0 36 36" class="ring-svg"><path class="ring-bg" d="M18 2 a16 16 0 1 1 0 32 a16 16 0 1 1 0 -32"/><path class="ring-fg" stroke-dasharray="94,100" d="M18 2 a16 16 0 1 1 0 32 a16 16 0 1 1 0 -32"/></svg>
+            <span>৯৪%</span>
+          </div>
+          <p>গড় উপস্থিতি — সরাসরি ওয়েবসাইট থেকে যাচাই করুন</p>
+        </div>
+      </div>
+      <div class="hero-building" aria-hidden="true">
+        <svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" class="building-svg">
+          <rect x="0" y="150" width="900" height="70" fill="#0B5D3B" opacity="0.15"/>
+          <polygon points="60,150 200,80 340,150" fill="#A6321E"/>
+          <rect x="80" y="150" width="240" height="70" fill="#fff" stroke="#0B5D3B" stroke-width="3"/>
+          <rect x="110" y="170" width="30" height="50" fill="#0B5D3B"/>
+          <rect x="170" y="170" width="30" height="30" fill="#E8A93A"/>
+          <rect x="220" y="170" width="30" height="30" fill="#E8A93A"/>
+          <rect x="270" y="170" width="30" height="30" fill="#E8A93A"/>
+          <polygon points="330,150 470,70 610,150" fill="#0B5D3B"/>
+          <rect x="350" y="150" width="240" height="70" fill="#fff" stroke="#A6321E" stroke-width="3"/>
+          <rect x="450" y="165" width="40" height="55" fill="#A6321E"/>
+          <rect x="380" y="170" width="30" height="30" fill="#E8A93A"/>
+          <rect x="520" y="170" width="30" height="30" fill="#E8A93A"/>
+          <polygon points="600,150 740,80 880,150" fill="#A6321E"/>
+          <rect x="620" y="150" width="240" height="70" fill="#fff" stroke="#0B5D3B" stroke-width="3"/>
+          <rect x="650" y="170" width="30" height="50" fill="#0B5D3B"/>
+          <rect x="710" y="170" width="30" height="30" fill="#E8A93A"/>
+          <rect x="760" y="170" width="30" height="30" fill="#E8A93A"/>
+          <rect x="810" y="170" width="30" height="30" fill="#E8A93A"/>
+          <circle cx="470" cy="40" r="14" fill="#E8A93A"/>
+          <rect x="466" y="54" width="8" height="16" fill="#6b4423"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== HEADMASTER'S MESSAGE ==================== -->
+<section class="section headmaster-section" id="headmaster">
+  <div class="section-inner">
+    <p class="eyebrow">শুভেচ্ছা বার্তা</p>
+    <h2 class="section-title">প্রধান শিক্ষকের বার্তা</h2>
+    <div class="headmaster-card">
+      <div class="headmaster-photo-wrap">
+        <img src="https://picsum.photos/seed/headmaster/300/300" alt="প্রধান শিক্ষক" class="headmaster-photo">
+      </div>
+      <div class="headmaster-text">
+        <p class="headmaster-quote-mark">❝</p>
+        <p class="headmaster-msg">শিক্ষা শুধু পাঠ্যবই মুখস্থ করার বিষয় নয়, এটি একজন মানুষকে সত্যিকারের মানুষ হয়ে গড়ে তোলার প্রক্রিয়া। কুশারিয়া উচ্চ বিদ্যালয় পরিবারের পক্ষ থেকে আমি প্রতিটি শিক্ষার্থীকে নৈতিকতা, শৃঙ্খলা ও জ্ঞানের সমন্বয়ে একজন দায়িত্বশীল নাগরিক হিসেবে গড়ে তোলার অঙ্গীকার করছি। আমাদের অভিজ্ঞ শিক্ষকমণ্ডলী, অভিভাবক ও শিক্ষার্থীদের সম্মিলিত প্রচেষ্টায় এই বিদ্যালয় দিন দিন এগিয়ে যাচ্ছে। আমি বিশ্বাস করি, সততা ও পরিশ্রমের মাধ্যমে আমাদের শিক্ষার্থীরা একদিন দেশ ও জাতির জন্য গর্বের কারণ হবে।</p>
+        <p class="headmaster-name">জনাব মোঃ আব্দুল হালিম</p>
+        <p class="headmaster-title">প্রধান শিক্ষক, কুশারিয়া উচ্চ বিদ্যালয়</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ABOUT + LAND DONOR ==================== -->
+<section class="section about-section" id="about">
+  <div class="section-inner">
+    <p class="eyebrow">পরিচিতি</p>
+    <h2 class="section-title">আমাদের বিদ্যালয়ের কথা</h2>
+    <p class="section-desc">১৯৯৪ সালে প্রতিষ্ঠিত কুশারিয়া উচ্চ বিদ্যালয় ঘাটাইল উপজেলার একটি ঐতিহ্যবাহী শিক্ষাপ্রতিষ্ঠান। প্রতিষ্ঠাকাল থেকে আজ পর্যন্ত এই বিদ্যালয় হাজারো শিক্ষার্থীকে আলোকিত মানুষ হিসেবে গড়ে তুলতে ভূমিকা রেখে চলেছে।</p>
+
+    <div class="donor-card">
+      <div class="donor-photo-wrap">
+        <div class="donor-photo">
+          <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#0B5D3B"/><text x="50" y="62" font-size="38" text-anchor="middle" fill="#F5E6C8" font-family="Baloo Da 2">ভূ</text></svg>
+        </div>
+      </div>
+      <div class="donor-text">
+        <p class="donor-tag">শ্রদ্ধাভরে স্মরণ — ভূমিদাতা</p>
+        <h3 class="donor-name">মরহুম আব্দুল করিম মিয়া</h3>
+        <p class="donor-desc">যাঁর দানকৃত জমির উপর দাঁড়িয়ে আছে আজকের এই কুশারিয়া উচ্চ বিদ্যালয়, তাঁর এই মহানুভবতা ও দূরদর্শিতার কারণেই এই অঞ্চলের অসংখ্য শিক্ষার্থী শিক্ষার আলো পেয়েছে। বিদ্যালয় পরিবার তাঁর এই অবদানের জন্য চিরকৃতজ্ঞ এবং তাঁর আত্মার মাগফেরাত কামনা করছে।</p>
+        <p class="donor-note">— বিদ্যালয় পরিচালনা পর্ষদ ও সমগ্র বিদ্যালয় পরিবার</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ADMISSION ==================== -->
+<section class="section admission-section" id="admission">
+  <div class="section-inner">
+    <p class="eyebrow">ভর্তি তথ্য</p>
+    <h2 class="section-title">ভর্তির আবেদন ফরম</h2>
+    <p class="section-desc">৬ষ্ঠ থেকে ১০ম শ্রেণি পর্যন্ত ভর্তি চলছে। নিচের ট্যাব থেকে শ্রেণি নির্বাচন করে আসনসংখ্যা দেখুন এবং ফরম পূরণ করুন। আবেদন জমা দিলে সাথে সাথে একটি স্লিপ পিডিএফ আকারে ডাউনলোড করতে পারবেন।</p>
+
+    <div class="class-tabs" id="classTabs">
+      <button class="class-tab active" data-class="৬ষ্ঠ">৬ষ্ঠ শ্রেণি</button>
+      <button class="class-tab" data-class="৭ম">৭ম শ্রেণি</button>
+      <button class="class-tab" data-class="৮ম">৮ম শ্রেণি</button>
+      <button class="class-tab" data-class="৯ম">৯ম শ্রেণি</button>
+      <button class="class-tab" data-class="১০ম">১০ম শ্রেণি</button>
+    </div>
+    <div class="class-info-card" id="classInfoCard"></div>
+
+    <form class="ledger-form" id="admissionForm">
+      <h3 class="form-title">ভর্তির আবেদন ফরম পূরণ করুন</h3>
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="stName">শিক্ষার্থীর পূর্ণ নাম</label>
+          <input type="text" id="stName" required placeholder="যেমন: মোঃ রাকিব হাসান">
+        </div>
+        <div class="form-field">
+          <label for="stClass">আবেদনকৃত শ্রেণি</label>
+          <select id="stClass" required>
+            <option value="৬ষ্ঠ">৬ষ্ঠ শ্রেণি</option>
+            <option value="৭ম">৭ম শ্রেণি</option>
+            <option value="৮ম">৮ম শ্রেণি</option>
+            <option value="৯ম">৯ম শ্রেণি</option>
+            <option value="১০ম">১০ম শ্রেণি</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="fatherName">পিতার নাম</label>
+          <input type="text" id="fatherName" required placeholder="পিতার পূর্ণ নাম">
+        </div>
+        <div class="form-field">
+          <label for="motherName">মাতার নাম</label>
+          <input type="text" id="motherName" required placeholder="মাতার পূর্ণ নাম">
+        </div>
+        <div class="form-field">
+          <label for="dob">জন্ম তারিখ</label>
+          <input type="date" id="dob" required>
+        </div>
+        <div class="form-field">
+          <label for="gender">লিঙ্গ</label>
+          <select id="gender" required>
+            <option value="ছাত্র">ছাত্র</option>
+            <option value="ছাত্রী">ছাত্রী</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="phone">অভিভাবকের মোবাইল নম্বর</label>
+          <input type="tel" id="phone" required placeholder="01xxxxxxxxx" pattern="[0-9]{11}">
+        </div>
+        <div class="form-field">
+          <label for="prevSchool">পূর্ববর্তী বিদ্যালয়ের নাম</label>
+          <input type="text" id="prevSchool" placeholder="(যদি থাকে)">
+        </div>
+        <div class="form-field form-field-full">
+          <label for="address">ঠিকানা</label>
+          <textarea id="address" required placeholder="গ্রাম/মহল্লা, ডাকঘর, উপজেলা, জেলা"></textarea>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">আবেদন জমা দিন</button>
+      <p class="form-msg" id="admissionMsg"></p>
+      <button type="button" class="btn btn-ghost slip-btn" id="downloadSlipBtn" style="display:none;">📄 ভর্তির স্লিপ ডাউনলোড করুন (PDF)</button>
+    </form>
+
+    <div class="admission-list-wrap">
+      <h3 class="form-title">সাম্প্রতিক জমাকৃত আবেদন</h3>
+      <div class="admission-list" id="admissionList"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== RESULTS & PROGRESS ==================== -->
+<section class="section results-section" id="results">
+  <div class="section-inner">
+    <p class="eyebrow">একাডেমিক ফলাফল</p>
+    <h2 class="section-title">ফলাফল ও অগ্রগতি দেখুন</h2>
+    <p class="section-desc">রোল নম্বর ও শ্রেণি দিয়ে অনুসন্ধান করে ফলাফল এবং বিগত পরীক্ষার সাথে অগ্রগতি তুলনা দেখুন। প্রয়োজনে ফলাফল পিডিএফ আকারে ডাউনলোড করুন।</p>
+
+    <div class="lookup-bar">
+      <select id="resultClass">
+        <option value="৬ষ্ঠ">৬ষ্ঠ শ্রেণি</option>
+        <option value="৭ম">৭ম শ্রেণি</option>
+        <option value="৮ম">৮ম শ্রেণি</option>
+        <option value="৯ম">৯ম শ্রেণি</option>
+        <option value="১০ম">১০ম শ্রেণি</option>
+      </select>
+      <input type="text" id="resultRoll" placeholder="রোল নম্বর লিখুন (যেমন: ৫)">
+      <button class="btn btn-primary" id="resultSearchBtn">ফলাফল দেখুন</button>
+    </div>
+    <p class="hint-text">ডেমো রোল নম্বর: ১ থেকে ১০ পর্যন্ত যেকোনো একটি চেষ্টা করুন।</p>
+
+    <div class="ledger-sheet" id="resultSheet">
+      <p class="ledger-empty">উপরে শ্রেণি ও রোল নম্বর দিয়ে অনুসন্ধান করুন।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ATTENDANCE ==================== -->
+<section class="section attendance-section" id="attendance">
+  <div class="section-inner">
+    <p class="eyebrow">উপস্থিতি</p>
+    <h2 class="section-title">উপস্থিতির হার</h2>
+    <p class="section-desc">শ্রেণি ও রোল নম্বর দিয়ে মাসিক উপস্থিতির হার যাচাই করুন।</p>
+
+    <div class="lookup-bar">
+      <select id="attClass">
+        <option value="৬ষ্ঠ">৬ষ্ঠ শ্রেণি</option>
+        <option value="৭ম">৭ম শ্রেণি</option>
+        <option value="৮ম">৮ম শ্রেণি</option>
+        <option value="৯ম">৯ম শ্রেণি</option>
+        <option value="১০ম">১০ম শ্রেণি</option>
+      </select>
+      <input type="text" id="attRoll" placeholder="রোল নম্বর লিখুন">
+      <button class="btn btn-primary" id="attSearchBtn">দেখুন</button>
+    </div>
+
+    <div class="attendance-result" id="attendanceResult">
+      <p class="ledger-empty">উপরে শ্রেণি ও রোল নম্বর দিয়ে অনুসন্ধান করুন।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CERTIFICATE APPLICATION ==================== -->
+<section class="section certificate-section" id="certificate">
+  <div class="section-inner">
+    <p class="eyebrow">প্রত্যয়ন পত্র</p>
+    <h2 class="section-title">প্রত্যয়ন পত্রের জন্য আবেদন করুন</h2>
+    <p class="section-desc">ফরমটি পূরণ করে জমা দিলে সাথে সাথে আপনার প্রত্যয়ন পত্র পিডিএফ আকারে ডাউনলোড হয়ে যাবে। প্রয়োজনে বিদ্যালয় অফিস থেকে মূল কপি সত্যায়িত করে নিন।</p>
+
+    <form class="ledger-form" id="certificateForm">
+      <h3 class="form-title">প্রত্যয়ন পত্রের আবেদন ফরম</h3>
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="certName">শিক্ষার্থীর পূর্ণ নাম</label>
+          <input type="text" id="certName" required>
+        </div>
+        <div class="form-field">
+          <label for="certFather">পিতার নাম</label>
+          <input type="text" id="certFather" required>
+        </div>
+        <div class="form-field">
+          <label for="certClass">শ্রেণি</label>
+          <select id="certClass" required>
+            <option value="৬ষ্ঠ">৬ষ্ঠ শ্রেণি</option>
+            <option value="৭ম">৭ম শ্রেণি</option>
+            <option value="৮ম">৮ম শ্রেণি</option>
+            <option value="৯ম">৯ম শ্রেণি</option>
+            <option value="১০ম">১০ম শ্রেণি</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="certRoll">রোল নম্বর</label>
+          <input type="text" id="certRoll" required>
+        </div>
+        <div class="form-field">
+          <label for="certSession">শিক্ষাবর্ষ / সেশন</label>
+          <input type="text" id="certSession" required placeholder="যেমন: ২০২৫-২০২৬">
+        </div>
+        <div class="form-field">
+          <label for="certPurpose">প্রত্যয়ন পত্রের উদ্দেশ্য</label>
+          <select id="certPurpose" required>
+            <option value="বৃত্তির আবেদনের জন্য">বৃত্তির আবেদনের জন্য</option>
+            <option value="জন্ম নিবন্ধনের জন্য">জন্ম নিবন্ধনের জন্য</option>
+            <option value="পাসপোর্ট তৈরির জন্য">পাসপোর্ট তৈরির জন্য</option>
+            <option value="অন্য বিদ্যালয়ে স্থানান্তরের জন্য">অন্য বিদ্যালয়ে স্থানান্তরের জন্য</option>
+            <option value="সাধারণ প্রয়োজনে">সাধারণ প্রয়োজনে</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">🖨️ আবেদন করুন ও পিডিএফ ডাউনলোড করুন</button>
+      <p class="form-msg" id="certificateMsg"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ==================== TEACHERS ==================== -->
+<section class="section teachers-section" id="teachers">
+  <div class="section-inner">
+    <p class="eyebrow">শিক্ষকমণ্ডলী</p>
+    <h2 class="section-title">আমাদের শিক্ষকবৃন্দ</h2>
+    <p class="section-desc">নামের উপর ক্লিক করে বিস্তারিত যোগ্যতা ও যোগাযোগের তথ্য দেখুন।</p>
+    <div class="teacher-grid" id="teacherGrid"></div>
+  </div>
+</section>
+
+<!-- Teacher Modal -->
+<div class="modal-overlay" id="teacherModalOverlay">
+  <div class="modal-box" id="teacherModalBox">
+    <button class="modal-close" id="teacherModalClose">✕</button>
+    <div id="teacherModalContent"></div>
+  </div>
+</div>
+
+<!-- ==================== GALLERY ==================== -->
+<section class="section gallery-section" id="gallery">
+  <div class="section-inner">
+    <p class="eyebrow">স্মৃতিচারণ</p>
+    <h2 class="section-title">বিদ্যালয়ের গ্যালারি</h2>
+    <p class="section-desc">বিভিন্ন অনুষ্ঠান ও উৎসবের স্মৃতিময় মুহূর্তগুলো।</p>
+    <div class="gallery-filters" id="galleryFilters">
+      <button class="gallery-filter active" data-cat="সব">সব</button>
+      <button class="gallery-filter" data-cat="ক্রীড়া">ক্রীড়া অনুষ্ঠান</button>
+      <button class="gallery-filter" data-cat="সাংস্কৃতিক">সাংস্কৃতিক</button>
+      <button class="gallery-filter" data-cat="বার্ষিক">বার্ষিক অনুষ্ঠান</button>
+      <button class="gallery-filter" data-cat="পুরস্কার">পুরস্কার বিতরণী</button>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<div class="lightbox-overlay" id="lightboxOverlay">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <img id="lightboxImg" src="" alt="">
+  <p id="lightboxCaption"></p>
+</div>
+
+<!-- ==================== ALUMNI ==================== -->
+<section class="section alumni-section" id="alumni">
+  <div class="section-inner">
+    <p class="eyebrow">প্রাক্তন শিক্ষার্থী</p>
+    <h2 class="section-title">অ্যালামনাই অ্যাসোসিয়েশন</h2>
+    <p class="section-desc">কুশারিয়া উচ্চ বিদ্যালয়ের প্রাক্তন শিক্ষার্থীদের নিয়ে গঠিত এই অ্যাসোসিয়েশন বিদ্যালয়ের উন্নয়নে সক্রিয়ভাবে কাজ করে যাচ্ছে। সদস্য হোন এবং নিয়মিত চাঁদা প্রদানের মাধ্যমে বিদ্যালয়ের উন্নয়নে অবদান রাখুন।</p>
+
+    <div class="alumni-grid">
+      <form class="ledger-form" id="alumniMemberForm">
+        <h3 class="form-title">📋 সদস্যপদের আবেদন</h3>
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="alName">পূর্ণ নাম</label>
+            <input type="text" id="alName" required>
+          </div>
+          <div class="form-field">
+            <label for="alBatch">পাশের সাল / ব্যাচ</label>
+            <input type="text" id="alBatch" required placeholder="যেমন: ২০১০">
+          </div>
+          <div class="form-field">
+            <label for="alProfession">বর্তমান পেশা</label>
+            <input type="text" id="alProfession" required>
+          </div>
+          <div class="form-field">
+            <label for="alPhone">মোবাইল নম্বর</label>
+            <input type="tel" id="alPhone" required>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="alAddress">বর্তমান ঠিকানা</label>
+            <textarea id="alAddress" required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">সদস্যপদের আবেদন করুন</button>
+        <p class="form-msg" id="alumniMemberMsg"></p>
+      </form>
+
+      <form class="ledger-form" id="alumniFeeForm">
+        <h3 class="form-title">💳 চাঁদা জমা দিন</h3>
+        <div class="fee-toggle" id="feeToggle">
+          <button type="button" class="fee-toggle-btn active" data-amt="200" data-period="মাসিক">মাসিক — ২০০ ৳</button>
+          <button type="button" class="fee-toggle-btn" data-amt="1100" data-period="ষান্মাসিক">ষান্মাসিক — ১১০০ ৳</button>
+        </div>
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="feeName">সদস্যের নাম</label>
+            <input type="text" id="feeName" required>
+          </div>
+          <div class="form-field">
+            <label for="feeMemberId">সদস্য আইডি (যদি থাকে)</label>
+            <input type="text" id="feeMemberId" placeholder="যেমন: KUS-A-014">
+          </div>
+          <div class="form-field">
+            <label for="feeMethod">পেমেন্ট মাধ্যম</label>
+            <select id="feeMethod">
+              <option>বিকাশ</option>
+              <option>নগদ</option>
+              <option>রকেট</option>
+              <option>ব্যাংক ট্রান্সফার</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="feeTxn">ট্রানজেকশন আইডি</label>
+            <input type="text" id="feeTxn" required placeholder="পেমেন্ট অ্যাপ থেকে প্রাপ্ত আইডি">
+          </div>
+        </div>
+        <p class="fee-amount-display">জমার পরিমাণ: <strong id="feeAmountText">২০০ ৳ (মাসিক)</strong></p>
+        <button type="submit" class="btn btn-primary">চাঁদা জমা নিশ্চিত করুন</button>
+        <p class="form-msg" id="alumniFeeMsg"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NOTABLE / ACHIEVER STUDENTS ==================== -->
+<section class="section achievers-section" id="achievers">
+  <div class="section-inner">
+    <p class="eyebrow">গর্বের মুখ</p>
+    <h2 class="section-title">কৃতিমান শিক্ষার্থীবৃন্দ</h2>
+    <p class="section-desc">যাঁরা কুশারিয়া উচ্চ বিদ্যালয় থেকে পড়াশোনা শেষে দেশের বিভিন্ন খ্যাতনামা বিশ্ববিদ্যালয়ে সুযোগ পেয়ে বিদ্যালয়ের সুনাম বৃদ্ধি করেছেন।</p>
+    <div class="achiever-grid" id="achieverGrid"></div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT / FOOTER ==================== -->
+<section class="section contact-section" id="contact">
+  <div class="section-inner contact-inner">
+    <div class="contact-info">
+      <p class="eyebrow">যোগাযোগ</p>
+      <h2 class="section-title">আমাদের সাথে যোগাযোগ করুন</h2>
+      <ul class="contact-list">
+        <li>📍 কুশারিয়া উচ্চ বিদ্যালয়, কুশারিয়া বাজার, ঘাটাইল, টাঙ্গাইল</li>
+        <li>📞 ০১৭xxxxxxxx (অফিস)</li>
+        <li>✉️ info@kushariahs.edu.bd</li>
+        <li>🕘 রবি–বৃহস্পতি, সকাল ১০টা – বিকাল ৪টা</li>
+      </ul>
+    </div>
+    <form class="ledger-form contact-form" id="contactForm">
+      <h3 class="form-title">বার্তা পাঠান</h3>
+      <div class="form-field">
+        <label for="cName">আপনার নাম</label>
+        <input type="text" id="cName" required>
+      </div>
+      <div class="form-field">
+        <label for="cMsg">বার্তা</label>
+        <textarea id="cMsg" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">পাঠিয়ে দিন</button>
+      <p class="form-msg" id="contactMsg"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>© <span id="year"></span> কুশারিয়া উচ্চ বিদ্যালয়, ঘাটাইল, টাঙ্গাইল। স্থাপিত ১৯৯৪ ইং। সর্বস্বত্ব সংরক্ষিত।</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="উপরে যান">↑</button>
+
+<!-- ==================== FIXED BOTTOM NOTICE TICKER ==================== -->
+<button class="ticker-bar" id="tickerBarBtn" aria-label="সকল নোটিশ দেখুন">
+  <span class="ticker-label">🔔 নোটিশ বোর্ড</span>
+  <div class="ticker-track">
+    <div class="ticker-content" id="tickerContent"></div>
+  </div>
+  <span class="ticker-cta">সব দেখুন ➜</span>
+</button>
+
+<!-- Notice Board Modal -->
+<div class="modal-overlay" id="noticeModalOverlay">
+  <div class="modal-box notice-modal-box">
+    <button class="modal-close" id="noticeModalClose">✕</button>
+    <h3 class="form-title">🔔 নোটিশ বোর্ড</h3>
+    <div class="notice-list" id="noticeList"></div>
+  </div>
+</div>
+
+<!-- ==================== PRINTABLE / PDF TEMPLATES ==================== -->
+<!-- These are hidden on screen and shown only when printing (Ctrl+P / Save as PDF),
+     which guarantees correct Bangla text rendering using the browser's own engine. -->
+<div class="print-area" id="printSlip">
+  <div class="print-header">
+    <div class="print-emblem">কু</div>
+    <div>
+      <h2>কুশারিয়া উচ্চ বিদ্যালয়</h2>
+      <p>কুশারিয়া বাজার, ঘাটাইল, টাঙ্গাইল &nbsp;•&nbsp; স্থাপিত ১৯৯৪</p>
+    </div>
+  </div>
+  <h3 class="print-title">ভর্তির আবেদন স্লিপ</h3>
+  <p class="print-track">ট্র্যাকিং নম্বর: <strong id="pSlipTrack"></strong> &nbsp;|&nbsp; আবেদনের তারিখ: <span id="pSlipDate"></span></p>
+  <table class="print-table">
+    <tr><th>শিক্ষার্থীর নাম</th><td id="pSlipName"></td></tr>
+    <tr><th>আবেদনকৃত শ্রেণি</th><td id="pSlipClass"></td></tr>
+    <tr><th>পিতার নাম</th><td id="pSlipFather"></td></tr>
+    <tr><th>মাতার নাম</th><td id="pSlipMother"></td></tr>
+    <tr><th>জন্ম তারিখ</th><td id="pSlipDob"></td></tr>
+    <tr><th>লিঙ্গ</th><td id="pSlipGender"></td></tr>
+    <tr><th>অভিভাবকের মোবাইল নম্বর</th><td id="pSlipPhone"></td></tr>
+    <tr><th>পূর্ববর্তী বিদ্যালয়</th><td id="pSlipPrevSchool"></td></tr>
+    <tr><th>ঠিকানা</th><td id="pSlipAddress"></td></tr>
+  </table>
+  <p class="print-note">এই স্লিপটি সংরক্ষণ করুন এবং ভর্তি নিশ্চিতকরণের জন্য মূল কাগজপত্রসহ বিদ্যালয় অফিসে যোগাযোগ করুন।</p>
+  <div class="print-sign"><span>যাচাইকারীর স্বাক্ষর</span><span>প্রধান শিক্ষকের স্বাক্ষর ও সীল</span></div>
+</div>
+
+<div class="print-area" id="printResult">
+  <div class="print-header">
+    <div class="print-emblem">কু</div>
+    <div>
+      <h2>কুশারিয়া উচ্চ বিদ্যালয়</h2>
+      <p>কুশারিয়া বাজার, ঘাটাইল, টাঙ্গাইল &nbsp;•&nbsp; স্থাপিত ১৯৯৪</p>
+    </div>
+  </div>
+  <h3 class="print-title">একাডেমিক ফলাফল বিবরণী</h3>
+  <p class="print-track">শ্রেণি: <strong id="pResClass"></strong> &nbsp;|&nbsp; রোল: <strong id="pResRoll"></strong> &nbsp;|&nbsp; গ্রেড: <strong id="pResGrade"></strong></p>
+  <table class="print-table" id="pResTable"></table>
+  <p class="print-note">প্রকাশের তারিখ: <span id="pResDate"></span></p>
+  <div class="print-sign"><span>শ্রেণি শিক্ষকের স্বাক্ষর</span><span>প্রধান শিক্ষকের স্বাক্ষর ও সীল</span></div>
+</div>
+
+<div class="print-area" id="printCertificate">
+  <div class="print-header">
+    <div class="print-emblem">কু</div>
+    <div>
+      <h2>কুশারিয়া উচ্চ বিদ্যালয়</h2>
+      <p>কুশারিয়া বাজার, ঘাটাইল, টাঙ্গাইল &nbsp;•&nbsp; স্থাপিত ১৯৯৪</p>
+    </div>
+  </div>
+  <h3 class="print-title">প্রত্যয়ন পত্র</h3>
+  <p class="print-cert-body" id="pCertBody"></p>
+  <p class="print-note">স্মারক নম্বর: <strong id="pCertTrack"></strong> &nbsp;|&nbsp; তারিখ: <span id="pCertDate"></span></p>
+  <div class="print-sign"><span>&nbsp;</span><span>প্রধান শিক্ষকের স্বাক্ষর ও সীল</span></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
